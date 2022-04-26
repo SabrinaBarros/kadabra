@@ -1,0 +1,45 @@
+{
+  "name": "kadabra",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/kadabra.js",
+  "bin": {
+    "kadabra": "bin/index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "node_modules/.bin/mocha ./tests/ --exit",
+    "lint": "node_modules/.bin/eslint ./src/ ./bin/ ./tests/",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SabrinaBarros/kadabra.git"
+  },
+  "keywords": [
+    "kadabra",
+    "cryptography",
+    "nodejs",
+    "javascript",
+    "cli",
+    "encryption",
+    "security"
+  ],
+  "author": {
+    "name": "SabrinaBarros",
+    "email": "sabrina.barros2045@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SabrinaBarros/kadabra/issues"
+  },
+  "homepage": "https://github.com/SabrinaBarros/kadabra#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "chai": "^4.3.6",
+    "eslint": "^8.14.0",
+    "husky": "^7.0.4",
+    "mocha": "^9.2.2"
+  }
+}
