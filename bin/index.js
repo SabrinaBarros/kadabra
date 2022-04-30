@@ -2,5 +2,6 @@
 
 const kadabra = require('../src/kadabra')
 
+const response = kadabra.encrypt(process.argv[2], process.argv[3])
 
-console.log(kadabra(process.argv[2]))
+console.log(response)
