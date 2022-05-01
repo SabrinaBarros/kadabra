@@ -2,6 +2,14 @@
 
 const kadabra = require('../src/kadabra')
 
-const response = kadabra.encrypt(process.argv[2], process.argv[3])
+if (process.argv[2] === '-d') {
 
-console.log(response)
+  const response = kadabra.decrypt(process.argv[3], process.argv[4])
+  console.log(response)
+
+} else {
+
+  const response = kadabra.encrypt(process.argv[2], process.argv[3])
+  console.log(response)
+
+}
