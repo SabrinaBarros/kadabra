@@ -40,4 +40,4 @@ This project was created as a personal initiative to develop my skills and share
 
 ## License 📃
 
-[MIT License](https://github.com/SabrinaBarros/retro-games-api/blob/master/LICENSE.md) © [Sabrina Barros](https://github.com/SabrinaBarros)
+[MIT License](LICENSE) © [Sabrina Barros](https://github.com/SabrinaBarros)
