@@ -8,15 +8,21 @@
 
 Download or clone the repository to your local machine.
 
-⚠️ You need to have `node.js` installed on your computer.
+⚠️ You need to have `node.js` and `NPM` installed locally.
 
-1. Clone the repository to your local machine using:
+1. Fork it!
+
+2. Clone the repository to your local machine using:
 
 ```sh
-$ git clone git@github.com:SabrinaBarros/kadabra.git
+$ git clone git@github.com:<your-username>/kadabra.git
 ```
 
-Or download the ZIP file and extract it to your preferred directory.
+3. Install all the required dependencies:
+   
+```sh
+$ npm install
+```
 
 ## Usage 🪄
 
